@@ -1,0 +1,40 @@
+{
+  "name": "adygcode/xxx-saas-vanilla-mvc",
+  "description": "Vanilla PHP MVC Framework Demo",
+  "type": "project",
+  "version": "0.1",
+  "time": "2024-08-28",
+  "keywords": [
+    "mvc",
+    "framework",
+    "vanilla",
+    "demo",
+    "mysql",
+    "mariadb",
+    "webapp"
+  ],
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Adrian Gouls",
+      "email": "adrian.gould@nmtafe.wa.edu.au",
+      "homepage": "https://adygcode.github.io",
+      "role": "Developer"
+    },
+    {
+      "name": "Brad Traversy",
+      "email": "support@traversymedia.com",
+      "homepage": "https://www.traversymedia.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Framework\\": "Framework/",
+      "App\\": "App/"
+    }
+  }
+}
