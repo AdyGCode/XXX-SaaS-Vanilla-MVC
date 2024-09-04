@@ -13,7 +13,7 @@
 module.exports = {
   content: [
     "./src/**/*.{html,js}",
-    "./**/*.{html,js,php}"
+    "./{App,public,config,Framework}/**/*.{html,js,php}"
   ],
   theme: {
     extend: {
